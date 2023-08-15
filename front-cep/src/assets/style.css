@@ -1,0 +1,85 @@
+/* styles.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para o menu */
+  #appmenu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .menu-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+  
+  .menu-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .menu-links a:hover {
+    color: #ffc107;
+  }
+  
+  /* Estilos para a lista de endereços */
+  #address-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .address-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos específicos para HD (1366x768) */
+  @media screen and (min-width: 1366px) {
+    #address-list {
+      gap: 30px;
+    }
+  
+    .address-card {
+      width: 400px;
+    }
+  }
+  
+  /* Estilos específicos para FHD (1920x1080) */
+  @media screen and (min-width: 1920px) {
+    #address-list {
+      gap: 40px;
+    }
+  
+    .address-card {
+      width: 500px;
+    }
+  }
+  
+  /* Estilos para dispositivos móveis (iPhone XR/12) */
+  @media screen and (max-width: 414px) {
+    #address-list {
+      padding: 10px;
+    }
+  
+    .address-card {
+      width: 100%;
+    }
+  }
+  
