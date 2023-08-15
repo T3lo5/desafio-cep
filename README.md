@@ -74,6 +74,18 @@ npm run serve
 - Backend: http://localhost:8000
 - Frontend: http://localhost:8080
 
+# Imagens do Projeto
+- Home
+  ![image](https://github.com/T3lo5/desafio-cep/assets/72330142/cad5fb29-ad2e-4458-ad48-a3a6e8604ea0)
+- Listagem de endereços
+  ![image](https://github.com/T3lo5/desafio-cep/assets/72330142/43633aee-ab29-469f-810e-f0c4c2d45294)
+- Edição
+  ![image](https://github.com/T3lo5/desafio-cep/assets/72330142/a7cb294b-847c-492c-a4b5-6b4837de5470)
+- Cadastro
+  ![image](https://github.com/T3lo5/desafio-cep/assets/72330142/91a6ba7b-5ab9-4514-b3c6-80f2485a825a)
+- Exclusão
+  ![image](https://github.com/T3lo5/desafio-cep/assets/72330142/d6d113be-2e34-46bf-9c95-f3610a0e9e28)
+
 # Contribuição 
 
 Contribuições são sempre bem-vindas! Para contribuir, por favor, siga estas etapas:
